@@ -1,0 +1,8 @@
+npx tsc .\server.ts .\src\app.ts
+
+pnpm add --save-dev @types/express
+
+LIMPAR CACHE
+npm cache clean --force
+rm -rf node_modules package-lock.json
+npm install
